@@ -14,4 +14,6 @@
 - [ ] Color perception test
 - [ ] Time perception test
 - [ ] Reaction time test
-- [ ] ???
+- [ ] Mouse movement test
+- [ ] Quick maths
+- [ ] 1 to 50
