@@ -9,7 +9,7 @@
     <title>HumanBenchmark</title>
 </head>
 <body>
-asdasdasd
+Humanbenchmark
 
 <?php
 require("php/login.php")
