@@ -1,7 +1,14 @@
+@font-face {
+    font-family: 'Roboto Mono', monospace;
+    src: url(../fonts/BarlowCondensed.ttf) format("truetype");
+}
+
 body, html {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
 }
 
 .gamebox {
@@ -10,61 +17,121 @@ body, html {
     text-align: center;
     position: fixed;
     padding: 3px;
+    background-image: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(79,87,106,1) 100%);
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.gamebox:hover {
+    height: 16.2vh;
+    width: 14.2vw;
+    box-shadow: 4px 4px 12px 0 rgba(66, 68, 90, 1);
 }
 
 .game-image {
     height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .game-image img {
-    height: 100%;
-    width: 100%;
+    border-radius: 5px;
+    height: calc(0.8 * 16vh);
+    width: calc(0.8 * 14vw);
 }
 
 .game-name {
-    background: red;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #aimtest {
     top: calc(30% - 8vh);
     left: calc(30% - 7vw);
 }
+#aimtest:hover {
+    top: calc(30% - 8.1vh);
+    left: calc(30% - 7.1vw);
+}
+
 #onetofifty {
     top: calc(30% - 8vh);
     left: calc(50% - 7vw);
 }
+#onetofifty:hover {
+    top: calc(30% - 8.1vh);
+    left: calc(50% - 7.1vw);
+}
+
 #clicktest {
     top: calc(30% - 8vh);
     left: calc(70% - 7vw);
+}
+#clicktest:hover {
+    top: calc(30% - 8.1vh);
+    left: calc(70% - 7.1vw);
 }
 
 #math {
     top: calc(50% - 8vh);
     left: calc(30% - 7vw);
 }
+#math:hover {
+    top: calc(50% - 8.1vh);
+    left: calc(30% - 7.1vw);
+}
+
 #mousetest {
     top: calc(50% - 8vh);
     left: calc(50% - 7vw);
 }
+#mousetest:hover {
+    top: calc(50% - 8.1vh);
+    left: calc(50% - 7.1vw);
+}
+
 #reaction {
     top: calc(50% - 8vh);
     left: calc(70% - 7vw);
+}
+#reaction:hover {
+    top: calc(50% - 8.1vh);
+    left: calc(70% - 7.1vw);
 }
 
 #timetest {
     top: calc(70% - 8vh);
     left: calc(30% - 7vw);
 }
+#timetest:hover {
+    top: calc(70% - 8.1vh);
+    left: calc(30% - 7.1vw);
+}
+
 #typeracer {
     top: calc(70% - 8vh);
     left: calc(50% - 7vw);
 }
+#typeracer:hover {
+    top: calc(70% - 8.1vh);
+    left: calc(50% - 7.1vw);
+}
+
 #colortest {
     top: calc(70% - 8vh);
     left: calc(70% - 7vw);
+}
+#colortest:hover {
+    top: calc(70% - 8.1vh);
+    left: calc(70% - 7.1vw);
+}
+
+a:visited {
+    color: #fff;
+}
+a {
+    color: #fff;
 }
