@@ -7,14 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Click test</title>
     <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-<button onclick="wybór()" id="five"> czas: 5sek</button>
-<button onclick="wybór()" id="ten"> czas: 10sek</button>
-<button onclick="wybór()" id="fiften"> czas: 15sek</button>
-<button onclick="wybór()" id="threeten"> czas: 30sek</button>
-<button onclick="klikać()">klikaj jak najszybciej</button>
+<button onclick="choose(0)" id="five"> czas: 5sek</button>
+<button onclick="choose(1)" id="ten"> czas: 10sek</button>
+<button onclick="choose(2)" id="fiften"> czas: 15sek</button>
+<button onclick="choose(3)" id="threeten"> czas: 30sek</button>
+<button onclick="clickd()">klikaj jak najszybciej</button>
+<button onclick="start()">zaczynajmy</button>
 <div id="wypisz">ilosc kliknięć:</div>
-<script src="script.js"></script>
+
 </body>
 </html>
