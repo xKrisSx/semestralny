@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Color Perception Test</title>
+    <title>Math test</title>
 </head>
 <body>
 

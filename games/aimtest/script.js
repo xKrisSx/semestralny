@@ -1,6 +1,5 @@
 let time = [5, 10, 30, 45, 60]
-let diff = [", "Średni", "Trudny"]
-let click = trueBardzo łatwy", "Łatwy"
+let diff = ["Bardzo łatwy", "Łatwy", "Średni", "Trudny"]
 let active
 let accuracy
 let points
@@ -18,15 +17,12 @@ function newcircle(first) {
     }
     if (!first) {
         document.getElementById("circle").remove()
-        if (click) {
-            document.getElementById("div").innerHTML += "<br>" + (new Date().getTime() - timer)
-            timer = new Date().getTime()
-        }
+        document.getElementById("div").innerHTML += "<br>" + (new Date().getTime() - timer)
+        timer = new Date().getTime()
     } else {
         timer = new Date().getTime()
     }
 
-    click = true
     let circle = document.createElement("div")
     circle.id = "circle"
 

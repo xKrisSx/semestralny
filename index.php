@@ -14,7 +14,7 @@
 Menu
 </header>
 
-<a href="games/aimtest/index.php">
+<a href="games/aimtest/index.php" target="_blank">
     <div class="gamebox" id="aimtest">
         <div class="game-image">
             <img src="images/sus.png">
@@ -25,7 +25,7 @@ Menu
     </div>
 </a>
 
-<a href="games/clicktest/index.php">
+<a href="games/clicktest/index.php" target="_blank">
     <div class="gamebox" id="clicktest">
         <div class="game-image">
             <img src="images/sus.png">
@@ -36,7 +36,7 @@ Menu
     </div>
 </a>
 
-<a href="games/colortest/index.php">
+<a href="games/colortest/index.php" target="_blank">
     <div class="gamebox" id="colortest">
         <div class="game-image">
             <img src="images/sus.png">
@@ -47,7 +47,7 @@ Menu
     </div>
 </a>
 
-<a href="games/typeracer/index.php">
+<a href="games/typeracer/index.php" target="_blank">
     <div class="gamebox" id="typeracer">
         <div class="game-image">
             <img src="images/sus.png">
@@ -58,7 +58,7 @@ Menu
     </div>
 </a>
 
-<a href="games/reaction/index.php">
+<a href="games/reaction/index.php" target="_blank">
     <div class="gamebox" id="reaction">
         <div class="game-image">
             <img src="images/sus.png">
@@ -69,7 +69,7 @@ Menu
     </div>
 </a>
 
-<a href="games/colortest/index.php">
+<a href="games/colortest/index.php" target="_blank">
     <div class="gamebox" id="math">
         <div class="game-image">
             <img src="images/sus.png">
@@ -80,7 +80,7 @@ Menu
     </div>
 </a>
 
-<a href="games/onetofifty/index.php">
+<a href="games/onetofifty/index.php" target="_blank">
     <div class="gamebox" id="onetofifty">
         <div class="game-image">
             <img src="images/sus.png">
@@ -91,7 +91,7 @@ Menu
     </div>
 </a>
 
-<a href="games/timetest/index.php">
+<a href="games/timetest/index.php" target="_blank">
     <div class="gamebox" id="timetest">
         <div class="game-image">
             <img src="images/sus.png">
@@ -102,7 +102,7 @@ Menu
     </div>
 </a>
 
-<a href="games/mousetest/index.php">
+<a href="games/mousetest/index.php" target="_blank">
     <div class="gamebox" id="mousetest">
         <div class="game-image">
             <img src="images/sus.png">
