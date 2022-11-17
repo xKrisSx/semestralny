@@ -131,6 +131,17 @@
     </div>
 </a>
 
+<a href="games/reading/index.php" target="_blank">
+    <div class="gamebox" id="reading">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Reading test
+        </div>
+    </div>
+</a>
+
 <footer>
     Stopka
 </footer>

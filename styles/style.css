@@ -1,5 +1,5 @@
 .gamebox {
-    --start-top: 30%;
+    --start-top: 20%;
     --start-left: 32%;
     --move-top: 20%;
     --move-left: 18%;
@@ -19,7 +19,7 @@ body, html {
 }
 
 header{
-    background-color: yellow;
+    background-color: rgba(0,0,0,0.5);
     width: 100%;
     height: 7%;
     display: flex;
@@ -38,7 +38,7 @@ footer{
     padding: 10px 10px 0px 10px;
     width: 100%;
     height: 5%;
-    background-color: grey;
+    background-color: rgba(0,0,0,0.5);
     bottom: 0;
     font-size: 30px;
 }
@@ -161,6 +161,15 @@ footer{
 #colortest:hover {
     top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
     left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
+}
+
+#reading {
+    top: calc(var(--start-top) + (3 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) - 7vw);
+}
+#reading:hover {
+    top: calc(var(--start-top) + (3 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) - 7.1vw);
 }
 
 a:visited {
