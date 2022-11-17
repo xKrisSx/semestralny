@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Aim Test</title>
+    <title>Math test</title>
 </head>
-<body id="body" onload="start()">
-<div id="div"></div>
+<body>
+
 </body>
 </html>

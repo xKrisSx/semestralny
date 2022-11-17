@@ -1,5 +1,172 @@
+.gamebox {
+    --start-top: 30%;
+    --start-left: 32%;
+    --move-top: 20%;
+    --move-left: 18%;
+}
+
+@font-face {
+    font-family: 'Roboto Mono', monospace;
+    src: url(../fonts/BarlowCondensed.ttf) format("truetype");
+}
+
 body, html {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+}
+
+header{
+    background-color: yellow;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.header_text{
+    margin: 5vw;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    height: 5%;
+    background-color: grey;
+    bottom: 0;
+    font-size: 30px;
+}
+
+.gamebox {
+    z-index: 5;
+    height: 16vh;
+    width: 14vw;
+    text-align: center;
+    position: fixed;
+    padding: 3px;
+    background-image: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(79,87,106,1) 100%);
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+}
+
+.gamebox:hover {
+    height: 16.2vh;
+    width: 14.2vw;
+    box-shadow: 4px 4px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.game-image {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-image img {
+    border-radius: 5px;
+    height: calc(0.8 * 16vh);
+    width: calc(0.8 * 14vw);
+}
+
+.game-name {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#aimtest {
+    top: calc(var(--start-top) - 8vh);
+    left: calc(var(--start-left) - 7vw);
+}
+#aimtest:hover {
+    top: calc(var(--start-top) - 8.1vh);
+    left: calc(var(--start-left) - 7.1vw);
+}
+
+#onetofifty {
+    top: calc(var(--start-top) - 8vh);
+    left: calc(var(--start-left) + var(--move-left) - 7vw);
+}
+#onetofifty:hover {
+    top: calc(var(--start-top) - 8.1vh);
+    left: calc(var(--start-left) + var(--move-left) - 7.1vw);
+}
+
+#clicktest {
+    top: calc(var(--start-top) - 8vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7vw);
+}
+#clicktest:hover {
+    top: calc(var(--start-top) - 8.1vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
+}
+
+#math {
+    top: calc(var(--start-top) + var(--move-top) - 8vh);
+    left: calc(var(--start-left) - 7vw);
+}
+#math:hover {
+    top: calc(var(--start-top) + var(--move-top) - 8.1vh);
+    left: calc(var(--start-left) - 7.1vw);
+}
+
+#mousetest {
+    top: calc(var(--start-top) + var(--move-top) - 8vh);
+    left: calc(var(--start-left) + var(--move-left) - 7vw);
+}
+#mousetest:hover {
+    top: calc(var(--start-top) + var(--move-top) - 8.1vh);
+    left: calc(var(--start-left) + var(--move-left) - 7.1vw);
+}
+
+#reaction {
+    top: calc(var(--start-top) + var(--move-top) - 8vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7vw);
+}
+#reaction:hover {
+    top: calc(var(--start-top) + var(--move-top) - 8.1vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
+}
+
+#timetest {
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) - 7vw);
+}
+#timetest:hover {
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) - 7.1vw);
+}
+
+#typeracer {
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) + var(--move-left) - 7vw);
+}
+#typeracer:hover {
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) + var(--move-left) - 7.1vw);
+}
+
+#colortest {
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7vw);
+}
+#colortest:hover {
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
+}
+
+a:visited {
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
 }
