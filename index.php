@@ -10,9 +10,9 @@
 </head>
 <body>
 
-<div id="navbar">
+<header>
 
-</div>
+</header>
 
 <a href="games/aimtest/index.php">
     <div class="gamebox" id="aimtest">
