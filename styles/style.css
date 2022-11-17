@@ -3,3 +3,64 @@ body, html {
     margin: 0;
     scroll-behavior: smooth;
 }
+
+.gamebox {
+    height: 16vh;
+    width: 14vw;
+    text-align: center;
+    position: fixed;
+    padding: 3px;
+}
+
+.game-image {
+    height: 80%;
+}
+
+.game-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.game-name {
+    background: red;
+    height: 20%;
+}
+
+#aimtest {
+    top: calc(30% - 8vh);
+    left: calc(30% - 7vw);
+}
+#onetofifty {
+    top: calc(30% - 8vh);
+    left: calc(50% - 7vw);
+}
+#clicktest {
+    top: calc(30% - 8vh);
+    left: calc(70% - 7vw);
+}
+
+#math {
+    top: calc(50% - 8vh);
+    left: calc(30% - 7vw);
+}
+#mousetest {
+    top: calc(50% - 8vh);
+    left: calc(50% - 7vw);
+}
+#reaction {
+    top: calc(50% - 8vh);
+    left: calc(70% - 7vw);
+}
+
+#timetest {
+    top: calc(70% - 8vh);
+    left: calc(30% - 7vw);
+}
+#typeracer {
+    top: calc(70% - 8vh);
+    left: calc(50% - 7vw);
+}
+#colortest {
+    top: calc(70% - 8vh);
+    left: calc(70% - 7vw);
+}
