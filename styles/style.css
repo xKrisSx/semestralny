@@ -1,3 +1,10 @@
+.gamebox {
+    --start-top: 30%;
+    --start-left: 32%;
+    --move-top: 20%;
+    --move-left: 18%;
+}
+
 @font-face {
     font-family: 'Roboto Mono', monospace;
     src: url(../fonts/BarlowCondensed.ttf) format("truetype");
@@ -75,84 +82,84 @@ footer{
 }
 
 #aimtest {
-    top: calc(30% - 8vh);
-    left: calc(30% - 7vw);
+    top: calc(var(--start-top) - 8vh);
+    left: calc(var(--start-left) - 7vw);
 }
 #aimtest:hover {
-    top: calc(30% - 8.1vh);
-    left: calc(30% - 7.1vw);
+    top: calc(var(--start-top) - 8.1vh);
+    left: calc(var(--start-left) - 7.1vw);
 }
 
 #onetofifty {
-    top: calc(30% - 8vh);
-    left: calc(50% - 7vw);
+    top: calc(var(--start-top) - 8vh);
+    left: calc(var(--start-left) + var(--move-left) - 7vw);
 }
 #onetofifty:hover {
-    top: calc(30% - 8.1vh);
-    left: calc(50% - 7.1vw);
+    top: calc(var(--start-top) - 8.1vh);
+    left: calc(var(--start-left) + var(--move-left) - 7.1vw);
 }
 
 #clicktest {
-    top: calc(30% - 8vh);
-    left: calc(70% - 7vw);
+    top: calc(var(--start-top) - 8vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7vw);
 }
 #clicktest:hover {
-    top: calc(30% - 8.1vh);
-    left: calc(70% - 7.1vw);
+    top: calc(var(--start-top) - 8.1vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
 }
 
 #math {
-    top: calc(50% - 8vh);
-    left: calc(30% - 7vw);
+    top: calc(var(--start-top) + var(--move-top) - 8vh);
+    left: calc(var(--start-left) - 7vw);
 }
 #math:hover {
-    top: calc(50% - 8.1vh);
-    left: calc(30% - 7.1vw);
+    top: calc(var(--start-top) + var(--move-top) - 8.1vh);
+    left: calc(var(--start-left) - 7.1vw);
 }
 
 #mousetest {
-    top: calc(50% - 8vh);
-    left: calc(50% - 7vw);
+    top: calc(var(--start-top) + var(--move-top) - 8vh);
+    left: calc(var(--start-left) + var(--move-left) - 7vw);
 }
 #mousetest:hover {
-    top: calc(50% - 8.1vh);
-    left: calc(50% - 7.1vw);
+    top: calc(var(--start-top) + var(--move-top) - 8.1vh);
+    left: calc(var(--start-left) + var(--move-left) - 7.1vw);
 }
 
 #reaction {
-    top: calc(50% - 8vh);
-    left: calc(70% - 7vw);
+    top: calc(var(--start-top) + var(--move-top) - 8vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7vw);
 }
 #reaction:hover {
-    top: calc(50% - 8.1vh);
-    left: calc(70% - 7.1vw);
+    top: calc(var(--start-top) + var(--move-top) - 8.1vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
 }
 
 #timetest {
-    top: calc(70% - 8vh);
-    left: calc(30% - 7vw);
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) - 7vw);
 }
 #timetest:hover {
-    top: calc(70% - 8.1vh);
-    left: calc(30% - 7.1vw);
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) - 7.1vw);
 }
 
 #typeracer {
-    top: calc(70% - 8vh);
-    left: calc(50% - 7vw);
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) + var(--move-left) - 7vw);
 }
 #typeracer:hover {
-    top: calc(70% - 8.1vh);
-    left: calc(50% - 7.1vw);
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) + var(--move-left) - 7.1vw);
 }
 
 #colortest {
-    top: calc(70% - 8vh);
-    left: calc(70% - 7vw);
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7vw);
 }
 #colortest:hover {
-    top: calc(70% - 8.1vh);
-    left: calc(70% - 7.1vw);
+    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
 }
 
 a:visited {
