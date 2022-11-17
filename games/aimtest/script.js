@@ -1,6 +1,6 @@
 let time = [5, 10, 30, 45, 60]
-let diff = ["Bardzo łatwy", "Łatwy", "Średni", "Trudny"]
-let click = true
+let diff = [", "Średni", "Trudny"]
+let click = trueBardzo łatwy", "Łatwy"
 let active
 let accuracy
 let points
