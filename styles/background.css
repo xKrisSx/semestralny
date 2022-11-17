@@ -61,6 +61,7 @@
 .colorblock:hover {
     filter: blur(0);
     transition: all 0.2s ease-in-out, height 0.05s ease-in-out, width 0.05s ease-in-out;
+
 }
 
 
@@ -73,6 +74,7 @@
     left: -24px;
     top: calc(50% - 234px);
     transition: all 0.25s ease-in-out;
+    width:48px;
 }
 
 #kolory:hover {
@@ -85,10 +87,13 @@
     transition: all 0.25s ease-in-out;
     text-shadow: 0 0 2px rgba(255,255,255,0.5);
     font-size: small;
+    text-align: center;
 }
 
 .blur:hover {
     filter: blur(0px);
     color: #ddd;
     text-shadow: none;
+
+
 }
