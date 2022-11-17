@@ -11,7 +11,14 @@
 <body>
 
 <header>
-Menu
+    <a class = "header_text">
+        Sign up
+    </a>
+
+    <a class = "header_text">
+        Log in
+    </a>
+
 </header>
 
 <a href="games/aimtest/index.php">
@@ -114,7 +121,7 @@ Menu
 </a>
 
 <footer>
-    stopka
+    Stopka
 </footer>
 <?php
 require("php/login.php")
