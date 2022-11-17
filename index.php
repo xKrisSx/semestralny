@@ -113,6 +113,9 @@ Menu
     </div>
 </a>
 
+<footer>
+    stopka
+</footer>
 <?php
 require("php/login.php")
 ?>
