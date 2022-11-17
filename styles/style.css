@@ -11,6 +11,27 @@ body, html {
     color: #fff;
 }
 
+header{
+    background-color: yellow;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    width: 100%;
+    height: 5%;
+    background-color: grey;
+    bottom: 0;
+    font-size: 30px;
+}
+
 .gamebox {
     height: 16vh;
     width: 14vw;
@@ -42,10 +63,12 @@ body, html {
 }
 
 .game-name {
+    background: red;
     height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 #aimtest {

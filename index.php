@@ -10,9 +10,9 @@
 </head>
 <body>
 
-<div id="navbar">
-
-</div>
+<header>
+Menu
+</header>
 
 <a href="games/aimtest/index.php">
     <div class="gamebox" id="aimtest">
@@ -113,6 +113,9 @@
     </div>
 </a>
 
+<footer>
+    stopka
+</footer>
 <?php
 require("php/login.php")
 ?>
