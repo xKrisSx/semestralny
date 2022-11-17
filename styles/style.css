@@ -28,6 +28,10 @@ header{
     font-size: 30px;
 }
 
+.header_text{
+    margin: 5vw;
+}
+
 footer{
     position: fixed;
     text-align: center;
