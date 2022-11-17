@@ -44,6 +44,7 @@ footer{
 }
 
 .gamebox {
+    z-index: 5;
     height: 16vh;
     width: 14vw;
     text-align: center;
@@ -57,7 +58,7 @@ footer{
 .gamebox:hover {
     height: 16.2vh;
     width: 14.2vw;
-    box-shadow: 4px 4px 12px 0 rgba(66, 68, 90, 1);
+    box-shadow: 4px 4px 24px 0px rgba(66, 68, 90, 1);
 }
 
 .game-image {

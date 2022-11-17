@@ -6,10 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/background.css" type="text/css">
     <title>HumanBenchmark</title>
+    <script src="scripts/background.js" defer></script>
 </head>
-<body>
-
+<body id="body" onload="enable(); dots(); background(); interval()">
+<div id="gradient"></div>
 <header>
     <a href = "" class = "header_text">
         Sign up
@@ -20,6 +22,15 @@
     </a>
 
 </header>
+
+<div id="kolory">
+    <div class="blur" onclick="changeColor('random')"><img class="colorblock active" id="random" src="images/buttons/random.png"> RANDOM</div>
+    <div class="blur" onclick="changeColor('0')"><img class="colorblock" id="red" src="images/buttons/red.png"> RED</div>
+    <div class="blur" onclick="changeColor('1')"><img class="colorblock" id="green" src="images/buttons/green.png"> GREEN</div>
+    <div class="blur" onclick="changeColor('2')"><img class="colorblock" id="blue" src="images/buttons/blue.png"> BLUE</div>
+    <div class="blur" onclick="changeColor('3')"><img class="colorblock" id="yellow" src="images/buttons/yellow.png"> YELLOW</div>
+    <div class="blur" onclick="changeColor('4')"><img class="colorblock" id="gray" src="images/buttons/gray.png"> GRAY</div>
+</div>
 
 <a href="games/aimtest/index.php" target="_blank">
     <div class="gamebox" id="aimtest">
