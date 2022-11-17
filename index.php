@@ -22,7 +22,7 @@
         <div class="game-name">
             Aim test
         </div>
-</div>
+    </div>
 </a>
 
 <a href="games/clicktest/index.php">
@@ -46,54 +46,72 @@
         </div>
     </div>
 </a>
-<div class="gamebox" id="typeracer">
-    <div class="game-image">
-        <img src="images/sus.png">
+
+<a href="games/typeracer/index.php">
+    <div class="gamebox" id="typeracer">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Typeracer
+        </div>
     </div>
-    <div class="game-name">
-        Typeracer
+</a>
+
+<a href="games/reaction/index.php">
+    <div class="gamebox" id="reaction">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Reaction test
+        </div>
     </div>
-</div>
-<div class="gamebox" id="reaction">
-    <div class="game-image">
-        <img src="images/sus.png">
+</a>
+
+<a href="games/colortest/index.php">
+    <div class="gamebox" id="math">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Math
+        </div>
     </div>
-    <div class="game-name">
-        Reaction test
+</a>
+
+<a href="games/onetofifty/index.php">
+    <div class="gamebox" id="onetofifty">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            1 to 50
+        </div>
     </div>
-</div>
-<div class="gamebox" id="math">
-    <div class="game-image">
-        <img src="images/sus.png">
+</a>
+
+<a href="games/timetest/index.php">
+    <div class="gamebox" id="timetest">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Time test
+        </div>
     </div>
-    <div class="game-name">
-        Math
+</a>
+
+<a href="games/mousetest/index.php">
+    <div class="gamebox" id="mousetest">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Mouse test
+        </div>
     </div>
-</div>
-<div class="gamebox" id="onetofifty">
-    <div class="game-image">
-        <img src="images/sus.png">
-    </div>
-    <div class="game-name">
-        1 to 50
-    </div>
-</div>
-<div class="gamebox" id="timetest">
-    <div class="game-image">
-        <img src="images/sus.png">
-    </div>
-    <div class="game-name">
-        Time test
-    </div>
-</div>
-<div class="gamebox" id="mousetest">
-    <div class="game-image">
-        <img src="images/sus.png">
-    </div>
-    <div class="game-name">
-        Mouse test
-    </div>
-</div>
+</a>
 
 <?php
 require("php/login.php")
