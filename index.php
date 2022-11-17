@@ -9,7 +9,91 @@
     <title>HumanBenchmark</title>
 </head>
 <body>
-Humanbenchmark
+
+<div id="navbar">
+
+</div>
+
+<a href="games/aimtest/index.php">
+    <div class="gamebox" id="aimtest">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Aim test
+        </div>
+</div>
+</a>
+
+<a href="games/clicktest/index.php">
+    <div class="gamebox" id="clicktest">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Click test
+        </div>
+    </div>
+</a>
+
+<a href="games/colortest/index.php">
+    <div class="gamebox" id="colortest">
+        <div class="game-image">
+            <img src="images/sus.png">
+        </div>
+        <div class="game-name">
+            Color perception test
+        </div>
+    </div>
+</a>
+<div class="gamebox" id="typeracer">
+    <div class="game-image">
+        <img src="images/sus.png">
+    </div>
+    <div class="game-name">
+        Typeracer
+    </div>
+</div>
+<div class="gamebox" id="reaction">
+    <div class="game-image">
+        <img src="images/sus.png">
+    </div>
+    <div class="game-name">
+        Reaction test
+    </div>
+</div>
+<div class="gamebox" id="math">
+    <div class="game-image">
+        <img src="images/sus.png">
+    </div>
+    <div class="game-name">
+        Math
+    </div>
+</div>
+<div class="gamebox" id="onetofifty">
+    <div class="game-image">
+        <img src="images/sus.png">
+    </div>
+    <div class="game-name">
+        1 to 50
+    </div>
+</div>
+<div class="gamebox" id="timetest">
+    <div class="game-image">
+        <img src="images/sus.png">
+    </div>
+    <div class="game-name">
+        Time test
+    </div>
+</div>
+<div class="gamebox" id="mousetest">
+    <div class="game-image">
+        <img src="images/sus.png">
+    </div>
+    <div class="game-name">
+        Mouse test
+    </div>
+</div>
 
 <?php
 require("php/login.php")
