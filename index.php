@@ -11,11 +11,11 @@
 <body>
 
 <header>
-    <a class = "header_text">
+    <a href = "" class = "header_text">
         Sign up
     </a>
 
-    <a class = "header_text">
+    <a href = "" class = "header_text">
         Log in
     </a>
 
