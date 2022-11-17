@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="../../styles/style.css" type="text/css">
     <title>Aim Test</title>
 </head>
 <body id="body" onload="start()">
