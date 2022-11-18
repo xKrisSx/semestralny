@@ -30,6 +30,20 @@ header{
 
 .header_text{
     margin: 5vw;
+    padding: 0.5vw;
+    color: white;
+    text-shadow:
+            0 0 7px #7d0202,
+            0 0 10px #7d0202,
+            0 0 21px #691704,
+            0 0 42px #691704,
+            0 0 82px #692704,
+            0 0 92px #692704,
+            0 0 102px #e30707,
+            0 0 151px #e30707;
+    border-style: solid;
+    border-width: 0.15vw;
+    border-radius: 15px ;
 }
 
 footer{
@@ -41,6 +55,16 @@ footer{
     background-color: rgba(0,0,0,0.5);
     bottom: 0;
     font-size: 30px;
+    color: white;
+    text-shadow:
+            0 0 7px #7d0202,
+            0 0 10px #7d0202,
+            0 0 21px #691704,
+            0 0 42px #691704,
+            0 0 82px #692704,
+            0 0 92px #692704,
+            0 0 102px #e30707,
+            0 0 151px #e30707;
 }
 
 .gamebox {
@@ -53,12 +77,14 @@ footer{
     background-image: linear-gradient(0deg, rgba(15,15,15,1) 0%, rgba(79,87,106,1) 100%);
     border-radius: 10px;
     transition: 0.1s ease-in-out;
+    opacity: 0.7;
 }
 
 .gamebox:hover {
     height: 16.2vh;
     width: 14.2vw;
     box-shadow: 4px 4px 24px 0px rgba(66, 68, 90, 1);
+    opacity: 1;
 }
 
 .game-image {
@@ -176,6 +202,15 @@ a:visited {
     color: #fff;
 }
 a {
-    color: #fff;
+    color: white;
+    text-shadow:
+            0 0 7px #7d0202,
+            0 0 10px #7d0202,
+            0 0 21px #691704,
+            0 0 42px #691704,
+            0 0 82px #692704,
+            0 0 92px #692704,
+            0 0 102px #e30707,
+            0 0 151px #e30707;
     text-decoration: none;
 }
