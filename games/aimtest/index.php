@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js" defer></script>
+    <script src="../../scripts/utils.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Aim Test</title>
 </head>
