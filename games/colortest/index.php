@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Color Perception Test</title>
 </head>
-<body>
-
+<body id="body" onclick="decrease()" onload="load()">
+<div id="add"></div>
 </body>
 </html>
