@@ -1,6 +1,6 @@
 let enabled = true
 let random = true
-let maxamount
+let maxamount = 50
 let amount = 0
 let i = 0
 let bg = Math.floor(Math.random() * 6) + 1

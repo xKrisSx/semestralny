@@ -56,13 +56,7 @@ function newcircle(first) {
         circle.style.left = "calc(" + Number(Math.floor(Math.random() * 60) + 20) + "% - " + (size / 2) + "px)"
     }
 
-    circle.style.backgroundColor = "#" +
-        toHexadecimal(Math.floor(Math.random()) * 16) +
-        toHexadecimal(Math.floor(Math.random()) * 16) +
-        toHexadecimal(Math.floor(Math.random()) * 16) +
-        toHexadecimal(Math.floor(Math.random()) * 16) +
-        toHexadecimal(Math.floor(Math.random()) * 16) +
-        toHexadecimal(Math.floor(Math.random()) * 16)
+    circle.style.backgroundColor = "#777"
     circle.onclick = function () {
         newcircle(false)
     }

@@ -1,13 +1,13 @@
 let time =[5,10,15,30];
 let clicks = 0;
 let active = false
-function choose(){
-
+let x = 0;
+function choose(n){
+    x = n;
 }
 function start(){
-    alert("a")
     active = true
-    setInterval(stop, 5000)
+    setInterval(stop, time[x] * 1000)
 
 }
 function clickd() {
@@ -16,10 +16,11 @@ function clickd() {
     } else {
         clicks++;
         document.getElementById("wypisz").innerHTML = "ilosc kliknięć:" + clicks;
-
     }
 }
 
 function stop(){
     active = false
+    document.getElementById("many").innerHTML = "wynik kliknięć na sekunde:" + clicks/ time[x];
 }
+

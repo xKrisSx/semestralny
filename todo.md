@@ -17,4 +17,3 @@
 - [ ] Mouse movement test
 - [ ] Quick maths
 - [ ] 1 to 50
-- [ ] Speed reading

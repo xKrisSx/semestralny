@@ -10,6 +10,13 @@
     <title>Time perception test</title>
 </head>
 <body>
-
+<button onclick="idz()" id="jeden">1 sekund</button>
+<button>1 sekund</button>
+<button>1 sekund</button>
+<button>2 sekundy</button>
+<button>2 sekundy</button>
+<button>3 sekundy</button>
+<button>5 sekund</button>
+<div id="wynik"></div>
 </body>
 </html>

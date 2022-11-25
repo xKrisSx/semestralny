@@ -143,7 +143,7 @@
 </a>
 
 <footer>
-    Stopka
+    <a>Stopka</a>
 </footer>
 <?php
 require("php/login.php")
