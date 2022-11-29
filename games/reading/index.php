@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pl">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Color Perception Test</title>
+    <title>Aim Test</title>
 </head>
-<body id="body" onclick="decrease()" onload="load()">
-<div id="add"></div>
+<body id="body" onload="start()">
+<div id="div"></div>
 </body>
 </html>
