@@ -17,6 +17,7 @@
 <button onclick="clickd()">klikaj jak najszybciej</button>
 <button onclick="start()">zaczynajmy</button>
 <div id="wypisz">ilosc kliknięć:</div>
+<div id="many">wynik kliknięć na sekunde:</div>
 
 </body>
 </html>
