@@ -9,9 +9,12 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Color Perception Test</title>
 </head>
-<body id="body" onload="load()">
+<body id="body">
+<div id="start" onclick="start()">Start</div>
+<!--
 <div id="add"></div>
 <div id="amogus"></div>
 <div id="amogus2"></div>
+-->
 </body>
 </html>

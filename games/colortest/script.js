@@ -3,6 +3,7 @@ let points = 0
 let accuracy = 0
 let hit = 0
 let n = 0
+let play = false
 
 function restart() {
     add = 100
@@ -14,8 +15,17 @@ function restart() {
 function start() {
     restart()
     load()
+    play = true
+    setTimeout(stop, 60000)
 }
+
+function stop() {
+    play = false
+    alert("Koniec czasu; punkty: " + points)
+}
+
 function load() {
+    if (!play) {return}
     document.getElementById("add").innerText = add
     let cswitch = Math.random() > 0.5
     let r, g, b
@@ -66,12 +76,11 @@ function load() {
     }
 }
 function decrease (bool) {
+    if (!play) {return}
     n++
     if (bool) {
         points += 5 + ((100 - add) / 4) + (Math.round(n / 10) + 1)
         hit++
-    } else {
-
     }
     accuracy = (hit / n) * 100
     points = Math.round(points * (accuracy === 0 ? 1 : accuracy)) / 100
