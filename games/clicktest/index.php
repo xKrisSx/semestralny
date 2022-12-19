@@ -10,6 +10,9 @@
     <script src="script.js" defer></script>
     <script src="../../scripts/background.js" defer></script>
     <link rel="stylesheet" href="../../styles/background.css" type="text/css">
+    <script src="../../scripts/background.js" defer></script>
+    <link rel="stylesheet" href="../../styles/background.css" type="text/css">
+    <link rel="stylesheet" href="../../styles/style.css" type="text/css">
 </head>
 <body id="body" onload="enable(); dots(); background(); interval()">
 
