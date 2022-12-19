@@ -18,5 +18,6 @@
 <button>5</button>
 <div id="jeden"></div>
 <div id="dwa"></div>
+<footer><a href="../../index.php">Strona główna</a></footer>
 </body>
 </html>

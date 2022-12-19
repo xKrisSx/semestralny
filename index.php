@@ -13,14 +13,7 @@
 <body id="body" onload="enable(); dots(); background(); interval()">
 <div id="gradient"></div>
 <header>
-    <a href = "" class = "header_text">
-        Sign up
-    </a>
-
-    <a href = "" class = "header_text">
-        Log in
-    </a>
-
+    <a>HumanBenchmark</a>
 </header>
 <!--
 <div id="kolory">
@@ -32,10 +25,10 @@
     <div class="blur" onclick="changeColor('4')"><img class="colorblock" id="gray" src="images/buttons/gray.png"> GRAY</div>
 </div>
 -->
-<a href="games/aimtest/index.php" target="_blank">
+<a href="games/aimtest/index.php">
     <div class="gamebox" id="aimtest">
         <div class="game-image">
-            <img src="images/cel.png">
+            <img src="images/aimtest.png">
         </div>
         <div class="game-name">
             Aim test
@@ -43,10 +36,10 @@
     </div>
 </a>
 
-<a href="games/clicktest/index.php" target="_blank">
+<a href="games/clicktest/index.php">
     <div class="gamebox" id="clicktest">
         <div class="game-image">
-            <img src="images/pobrany%20plik.png">
+            <img src="images/clicktest.png">
         </div>
         <div class="game-name">
             Click test
@@ -54,10 +47,10 @@
     </div>
 </a>
 
-<a href="games/colortest/index.php" target="_blank">
+<a href="games/colortest/index.php">
     <div class="gamebox" id="colortest">
         <div class="game-image">
-            <img src="images/tencza.png">
+            <img src="images/colortest.png">
         </div>
         <div class="game-name">
             Color perception test
@@ -76,10 +69,10 @@
     </div>
 </a>
 -->
-<a href="games/reaction/index.php" target="_blank">
+<a href="games/reaction/index.php">
     <div class="gamebox" id="reaction">
         <div class="game-image">
-            <img src="images/reaction.png">
+            <img src="images/reactiontest.png">
         </div>
         <div class="game-name">
             Reaction test
@@ -98,10 +91,10 @@
     </div>
 </a>
 -->
-<a href="games/onetofifty/index.php" target="_blank">
+<a href="games/onetofifty/index.php">
     <div class="gamebox" id="onetofifty">
         <div class="game-image">
-            <img src="images/liczby.png">
+            <img src="images/50to1.png">
         </div>
         <div class="game-name">
             50 to 1
@@ -109,10 +102,10 @@
     </div>
 </a>
 
-<a href="games/timetest/index.php" target="_blank">
+<a href="games/timetest/index.php">
     <div class="gamebox" id="timetest">
         <div class="game-image">
-            <img src="images/klepsydra.png">
+            <img src="images/timetest.png">
         </div>
         <div class="game-name">
             Time test
@@ -143,7 +136,7 @@
 </a>
 -->
 <footer>
-    <a>Stopka</a>
+    <a>Krystian, Patryk, Wiktor // 4CP</a>
 </footer>
 <?php
 require("php/login.php")

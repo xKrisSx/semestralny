@@ -27,6 +27,6 @@
 <div class="button timeButton" onclick="changeTime(1)">30</div>
 <div class="button timeButton" onclick="changeTime(2)">60</div>
 </div>
-<footer></footer>
+<footer><a href="../../index.php">Strona główna</a></footer>
 </body>
 </html>
