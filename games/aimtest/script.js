@@ -1,8 +1,7 @@
 let time = [5, 10, 30, 45, 60]
 let diff = ["Bardzo łatwy", "Łatwy", "Średni", "Trudny"]
 let active
-let accuracy
-let points
+let times = []
 let timer
 
 function start() {

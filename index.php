@@ -22,7 +22,7 @@
     </a>
 
 </header>
-
+<!--
 <div id="kolory">
     <div class="blur" onclick="changeColor('random')"><img class="colorblock active" id="random" src="images/buttons/random.png"> RANDOM</div>
     <div class="blur" onclick="changeColor('0')"><img class="colorblock" id="red" src="images/buttons/red.png"> RED</div>
@@ -31,7 +31,7 @@
     <div class="blur" onclick="changeColor('3')"><img class="colorblock" id="yellow" src="images/buttons/yellow.png"> YELLOW</div>
     <div class="blur" onclick="changeColor('4')"><img class="colorblock" id="gray" src="images/buttons/gray.png"> GRAY</div>
 </div>
-
+-->
 <a href="games/aimtest/index.php" target="_blank">
     <div class="gamebox" id="aimtest">
         <div class="game-image">
@@ -64,8 +64,8 @@
         </div>
     </div>
 </a>
-
-<a href="games/typeracer/index.php" target="_blank">
+<!--
+<a href="delete/typeracer/index.php" target="_blank">
     <div class="gamebox" id="typeracer">
         <div class="game-image">
             <img src="images/sus.png">
@@ -75,7 +75,7 @@
         </div>
     </div>
 </a>
-
+-->
 <a href="games/reaction/index.php" target="_blank">
     <div class="gamebox" id="reaction">
         <div class="game-image">
@@ -86,7 +86,7 @@
         </div>
     </div>
 </a>
-
+<!--
 <a href="games/colortest/index.php" target="_blank">
     <div class="gamebox" id="math">
         <div class="game-image">
@@ -97,7 +97,7 @@
         </div>
     </div>
 </a>
-
+-->
 <a href="games/onetofifty/index.php" target="_blank">
     <div class="gamebox" id="onetofifty">
         <div class="game-image">
@@ -119,8 +119,8 @@
         </div>
     </div>
 </a>
-
-<a href="games/mousetest/index.php" target="_blank">
+<!--
+<a href="delete/mousetest/index.php" target="_blank">
     <div class="gamebox" id="mousetest">
         <div class="game-image">
             <img src="images/sus.png">
@@ -130,8 +130,8 @@
         </div>
     </div>
 </a>
-
-<a href="games/reading/index.php" target="_blank">
+--><!--
+<a href="delete/reading/index.php" target="_blank">
     <div class="gamebox" id="reading">
         <div class="game-image">
             <img src="images/sus.png">
@@ -141,7 +141,7 @@
         </div>
     </div>
 </a>
-
+-->
 <footer>
     <a>Stopka</a>
 </footer>

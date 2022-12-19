@@ -1,5 +1,5 @@
 let enabled = true
-let random = true
+let random = false
 let maxamount
 let amount = 0
 let i = 0
@@ -46,7 +46,7 @@ let colors  = [
         [ 100, 200, 2, 1, 3, 7 ]
     ]
 ]
-let color = Math.floor(Math.random() * colors.length)
+let color = 2
 
 function detectMob() {
     const toMatch = [
