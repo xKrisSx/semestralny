@@ -1,0 +1,36 @@
+let tablica = [];
+let tablica2 =[];
+let x = 50;
+function load() {
+    for (let i = 0; i < 25; i++) {
+        tablica[i] = Math.floor(Math.random() * 25) + 26;
+        document.getElementById(i).innerHTML = tablica[i];
+        for (let j = 0; j < i; j++) {
+            if (tablica[j] === tablica[i]) {
+                i--
+            }
+        }
+    }
+for (let i = 0; i < 25; i++) {
+    tablica2[i] = Math.floor(Math.random() * 25) + 1;
+    for (let j = 0; j < i; j++) {
+        if (tablica2[j] === tablica2[i]) {
+            i--
+        }
+    }
+}
+}
+load()
+
+function klikniecie(a){
+    let b = Number(document.getElementById(a).innerText);
+    if(b === x) {
+        x--;
+        if (b - 25 > 0) {
+            document.getElementById(a).innerHTML = tablica2[a];
+            document.getElementById(a).style.backgroundColor = "yellow";
+        }else{
+            document.getElementById(a).style.backgroundColor = "black";
+        }
+    }
+}

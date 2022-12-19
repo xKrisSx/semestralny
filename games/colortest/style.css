@@ -1,3 +1,13 @@
-.active:hover {
-    border: solid 3px black;
+/*
+.true:hover {
+    border: dotted 3px black;
+}*/
+.button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+}
+.circle {
+
 }

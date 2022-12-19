@@ -6,10 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Click test</title>
-    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <script src="script.js" defer></script>
+    <script src="../../scripts/background.js" defer></script>
+    <link rel="stylesheet" href="../../styles/background.css" type="text/css">
 </head>
-<body>
+<body id="body" onload="enable(); dots(); background(); interval()">
+<div id="gradient"></div>
 <button onclick="choose(0)" id="five"> czas: 5sek</button>
 <button onclick="choose(1)" id="ten"> czas: 10sek</button>
 <button onclick="choose(2)" id="fiften"> czas: 15sek</button>

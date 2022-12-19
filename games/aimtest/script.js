@@ -1,14 +1,27 @@
-let time = [5, 10, 30, 45, 60]
-let diff = ["Bardzo łatwy", "Łatwy", "Średni", "Trudny"]
-let active
-let accuracy
-let points
+let time = [10, 30, 60]
+let timeIndex = 0
+let diff = ["Łatwy", "Średni", "Trudny"]
+let diffIndex = 0
+let active = false
+let times = []
 let timer
 
 function start() {
     active = true
-    setInterval(stop, time[0] * 1000)
+    setTimeout(stop, time[timeIndex] * 1000)
     newcircle(true)
+}
+
+function changeTime(time) {
+    timeIndex = time
+    document.getElementsByClassName("timeButton active")[0].classList.remove("active")
+    document.getElementsByClassName("timeButton")[time].classList.add("active")
+}
+
+function changeDiff(diff) {
+    diffIndex = diff
+    document.getElementsByClassName("diffButton active")[0].classList.remove("active")
+    document.getElementsByClassName("diffButton")[diff].classList.add("active")
 }
 
 function newcircle(first) {
@@ -17,21 +30,19 @@ function newcircle(first) {
     }
     if (!first) {
         document.getElementById("circle").remove()
-        document.getElementById("div").innerHTML += "<br>" + (new Date().getTime() - timer)
+        /*document.getElementById("div").innerHTML += "<br>" + (new Date().getTime() - timer)*/
         timer = new Date().getTime()
     } else {
         timer = new Date().getTime()
     }
 
     let circle = document.createElement("div")
+    circle.classList.add("circle")
     circle.id = "circle"
 
     circle.style.borderRadius = "50%"
     let size
-    switch (diff[1]) {
-        case "Bardzo łatwy":
-            size = 120
-            break
+    switch (diff[diffIndex]) {
         case "Łatwy":
             size = 90
             break
@@ -56,8 +67,9 @@ function newcircle(first) {
         circle.style.left = "calc(" + Number(Math.floor(Math.random() * 60) + 20) + "% - " + (size / 2) + "px)"
     }
 
-    circle.style.backgroundColor = "#777"
-    circle.onclick = function () {
+    /*circle.style.backgroundColor = "#777"*/
+    circle.onclick = function() {
+        times.push(new Date().getTime() - timer)
         newcircle(false)
     }
 
@@ -66,5 +78,8 @@ function newcircle(first) {
 }
 
 function stop() {
-    /*active = false*/
+    active = false
+    document.getElementById("circle").remove()
+    let average = 0;times.forEach(n => {average += n});average /= times.length
+    alert("Koniec czasu, ilość trafień: " + times.length + "; średni czas: " + Math.round(average) + "ms")
 }

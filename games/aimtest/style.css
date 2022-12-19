@@ -1,0 +1,10 @@
+.button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.circle {
+    border: 2px solid white;
+}

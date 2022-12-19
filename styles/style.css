@@ -1,5 +1,5 @@
 .gamebox {
-    --start-top: 20%;
+    --start-top: 35%;
     --start-left: 32%;
     --move-top: 20%;
     --move-left: 18%;
@@ -26,6 +26,42 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 2.4vh;
+}
+
+.button {
+    margin: 10px;
+    padding: 0.5vw;
+    border-style: solid;
+    border-width: 0.15vw;
+    border-radius: 15px ;
+}
+
+.button:hover{
+    box-shadow: 3px 3px 9px 3px #3f16c4;
+    opacity: 1;
+    text-shadow:
+            0 0 7px #1627c4,
+            0 0 10px #1627c4,
+            0 0 21px #1916c4,
+            0 0 42px #1916c4,
+            0 0 82px #3016c4,
+            0 0 92px #3016c4,
+            0 0 102px #3f16c4,
+            0 0 151px #3f16c4;
+}
+
+.active {
+    box-shadow: 3px 3px 9px 3px #36c416;
+    opacity: 1;
+    text-shadow:
+            0 0 7px #1cc416,
+            0 0 10px #16c419,
+            0 0 21px #1cc416,
+            0 0 42px #50c416,
+            0 0 82px #1cc416,
+            0 0 92px #47c416,
+            0 0 102px #1cc416,
+            0 0 151px #22c416;
 }
 
 .header_text{
@@ -137,23 +173,23 @@ footer{
     left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
 }
 
-#math {
+/*#math {
     top: calc(var(--start-top) + var(--move-top) - 8vh);
     left: calc(var(--start-left) - 7vw);
 }
 #math:hover {
     top: calc(var(--start-top) + var(--move-top) - 8.1vh);
     left: calc(var(--start-left) - 7.1vw);
-}
+}*/
 
-#mousetest {
+/*#mousetest {
     top: calc(var(--start-top) + var(--move-top) - 8vh);
     left: calc(var(--start-left) + var(--move-left) - 7vw);
 }
 #mousetest:hover {
     top: calc(var(--start-top) + var(--move-top) - 8.1vh);
     left: calc(var(--start-left) + var(--move-left) - 7.1vw);
-}
+}*/
 
 #reaction {
     top: calc(var(--start-top) + var(--move-top) - 8vh);
@@ -165,40 +201,40 @@ footer{
 }
 
 #timetest {
-    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
+    top: calc(var(--start-top) + (1 * var(--move-top)) - 8vh);
     left: calc(var(--start-left) - 7vw);
 }
 #timetest:hover {
-    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
+    top: calc(var(--start-top) + (1 * var(--move-top)) - 8.1vh);
     left: calc(var(--start-left) - 7.1vw);
 }
 
-#typeracer {
+/*#typeracer {
     top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
     left: calc(var(--start-left) + var(--move-left) - 7vw);
 }
 #typeracer:hover {
     top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
     left: calc(var(--start-left) + var(--move-left) - 7.1vw);
-}
+}*/
 
 #colortest {
-    top: calc(var(--start-top) + (2 * var(--move-top)) - 8vh);
-    left: calc(var(--start-left) + (2 * var(--move-left)) - 7vw);
+    top: calc(var(--start-top) + (1 * var(--move-top)) - 8vh);
+    left: calc(var(--start-left) + (1 * var(--move-left)) - 7vw);
 }
 #colortest:hover {
-    top: calc(var(--start-top) + (2 * var(--move-top)) - 8.1vh);
-    left: calc(var(--start-left) + (2 * var(--move-left)) - 7.1vw);
+    top: calc(var(--start-top) + (1 * var(--move-top)) - 8.1vh);
+    left: calc(var(--start-left) + (1 * var(--move-left)) - 7.1vw);
 }
 
-#reading {
+/*#reading {
     top: calc(var(--start-top) + (3 * var(--move-top)) - 8vh);
     left: calc(var(--start-left) - 7vw);
 }
 #reading:hover {
     top: calc(var(--start-top) + (3 * var(--move-top)) - 8.1vh);
     left: calc(var(--start-left) - 7.1vw);
-}
+}*/
 
 a:visited {
     color: #fff;
