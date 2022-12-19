@@ -35,7 +35,7 @@
 <a href="games/aimtest/index.php" target="_blank">
     <div class="gamebox" id="aimtest">
         <div class="game-image">
-            <img src="images/sus.png">
+            <img src="images/cel.png">
         </div>
         <div class="game-name">
             Aim test
@@ -46,7 +46,7 @@
 <a href="games/clicktest/index.php" target="_blank">
     <div class="gamebox" id="clicktest">
         <div class="game-image">
-            <img src="images/sus.png">
+            <img src="images/pobrany%20plik.png">
         </div>
         <div class="game-name">
             Click test
@@ -57,7 +57,7 @@
 <a href="games/colortest/index.php" target="_blank">
     <div class="gamebox" id="colortest">
         <div class="game-image">
-            <img src="images/sus.png">
+            <img src="images/tencza.png">
         </div>
         <div class="game-name">
             Color perception test
@@ -79,7 +79,7 @@
 <a href="games/reaction/index.php" target="_blank">
     <div class="gamebox" id="reaction">
         <div class="game-image">
-            <img src="images/sus.png">
+            <img src="images/reaction.png">
         </div>
         <div class="game-name">
             Reaction test
@@ -101,7 +101,7 @@
 <a href="games/onetofifty/index.php" target="_blank">
     <div class="gamebox" id="onetofifty">
         <div class="game-image">
-            <img src="images/sus.png">
+            <img src="images/liczby.png">
         </div>
         <div class="game-name">
             1 to 50
@@ -112,7 +112,7 @@
 <a href="games/timetest/index.php" target="_blank">
     <div class="gamebox" id="timetest">
         <div class="game-image">
-            <img src="images/sus.png">
+            <img src="images/klepsydra.png">
         </div>
         <div class="game-name">
             Time test
