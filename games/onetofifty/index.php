@@ -7,10 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>1 to 50</title>
+    <title>50 to 1</title>
+    <link rel="stylesheet" href="../../styles/background.css" type="text/css">
+    <script src="../../scripts/background.js" defer></script>
 </head>
-<body>
+<body id="body" onload="enable(); dots(); background(); interval()">
+<div id="gradient"></div>
 <header>
+    <a>50 to 1 </a>
+    <a>Time :</a>
+    <a id = "wynik" ></a>
 </header>
 <table>
     <tr>
