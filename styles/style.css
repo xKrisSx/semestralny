@@ -126,7 +126,6 @@ footer{
 .game-image img {
     border-radius: 5px;
     height: calc(0.8 * 16vh);
-    width: calc(0.8 * 14vw);
 }
 
 .game-name {

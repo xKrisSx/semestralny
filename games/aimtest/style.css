@@ -38,4 +38,5 @@ span{
     background-color: rgba(0,0,0,0.5);
     border: 2px solid white;
     text-align: center; /* do wyśrodkowania xd */
+    line-height: 35vh;
 }
