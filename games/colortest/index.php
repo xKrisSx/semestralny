@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="../../styles/style.css" type="text/css">
 </head>
 <body id="body" onload="enable(); dots(); background(); interval()">
-<header><a>Color Perception Test</a></header>
+<header>
+    <a class="start" id="start" onclick="start()">Start</a>
+    <a>Color Perception Test</a>
+</header>
 <div id="gradient"></div>
-<div class="button" id="start" onclick="start()">Start</div>
+
 <!--
 <div id="add"></div>
 <div id="amogus"></div>

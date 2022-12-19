@@ -2,11 +2,10 @@
 .true:hover {
     border: dotted 3px black;
 }*/
-.button {
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    vertical-align: center;
+.start {
+    margin-right: 5vw;
+
+
 }
 .circle {
 
