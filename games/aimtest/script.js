@@ -7,17 +7,20 @@ let times = []
 let timer
 
 function start() {
+    if (active) {return}
     active = true
     newcircle(true)
 }
 
 function changeTime(time) {
+    if (active) {return}
     timeIndex = time
     document.getElementsByClassName("timeButton active")[0].classList.remove("active")
     document.getElementsByClassName("timeButton")[time].classList.add("active")
 }
 
 function changeDiff(diff) {
+    if (active) {return}
     diffIndex = diff
     document.getElementsByClassName("diffButton active")[0].classList.remove("active")
     document.getElementsByClassName("diffButton")[diff].classList.add("active")
