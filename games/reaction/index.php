@@ -10,6 +10,8 @@
     <title>Reaction test</title>
 </head>
 <body>
+<header><a>Reaction Test</a></header>
+
 <footer><a href="../../index.php">Strona główna</a></footer>
 </body>
 </html>
