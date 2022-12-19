@@ -104,7 +104,7 @@
             <img src="images/sus.png">
         </div>
         <div class="game-name">
-            1 to 50
+            50 to 1
         </div>
     </div>
 </a>
