@@ -2,8 +2,26 @@
     width: 100px;
     height: 30px;
     text-align: center;
-    vertical-align: center;
 }
+span{
+    padding-left: 1.2vh;
+}
+.div_button{
+    margin-top: 17vh;
+    width:15vw;
+    text-align: left;
+    color: white;
+    text-shadow:
+            0 0 7px #7d0202,
+            0 0 10px #7d0202,
+            0 0 21px #691704,
+            0 0 42px #691704,
+            0 0 82px #692704,
+            0 0 92px #692704,
+            0 0 102px #e30707,
+            0 0 151px #e30707;
+}
+
 
 .circle {
     border: 2px solid white;
