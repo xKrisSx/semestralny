@@ -8,8 +8,11 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Reaction test</title>
+    <link rel="stylesheet" href="../../styles/background.css" type="text/css">
+    <script src="../../scripts/background.js" defer></script>
 </head>
 <body id="body" onload="enable(); dots(); background(); interval()">
+<div id="gradient"></div>
 <header><a>Reaction Test</a></header>
 
 <footer><a href="../../index.php">Strona główna</a></footer>
