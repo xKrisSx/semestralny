@@ -2,25 +2,20 @@ let tablica1 = [true, false, true, false];
 let x = 0;
 let y = 0;
 let z = 0;
-let date = 0;
-let n = 1;
+let date;
+let n;
 let wynik = 0;
-function funkcja(){
+function funkcja(n){
     y = tablica1[n]
-    z = tablica1[n+1]
+    z = tablica1[n + 1]
     if(!y){
-        alert("b")
-        wynik = new Date() - date;
+        wynik = new Date().getTime() - date;
         document.getElementById("dwa").innerHTML = wynik;
-        alert("e")
+        tablica1.splice(n + 1 ,1,"true")
     } else if(!z) {
-        alert("a")
-        date = new Date();
-
+        date = new Date().getTime();
         document.getElementById("jeden").innerHTML = date;
-        alert("c")
-        tablica1.splice(2,1,"true")
-        alert("d")
+        tablica1.splice(n,1,"false")
     }
 
 
