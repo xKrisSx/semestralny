@@ -8,8 +8,18 @@
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Aim Test</title>
+    <script src="../../scripts/background.js" defer></script>
 </head>
-<body id="body" onload="start()">
-<div id="div"></div>
+<body id="body">
+
+<div id="start" onclick="start()">Start</div>
+<div>Poziom trudności:</div>
+<div class="button diffButton active" onclick="changeDiff(0)">Łatwy</div>
+<div class="button diffButton" onclick="changeDiff(1)">Średni</div>
+<div class="button diffButton" onclick="changeDiff(2)">Trudny</div>
+<div>Czas:</div>
+<div class="button timeButton active" onclick="changeTime(0)">10</div>
+<div class="button timeButton" onclick="changeTime(1)">30</div>
+<div class="button timeButton" onclick="changeTime(2)">60</div>
 </body>
 </html>

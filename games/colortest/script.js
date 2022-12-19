@@ -1,5 +1,6 @@
 let add = 100
 let points = 0
+let time = 60
 let accuracy = 0
 let hit = 0
 let n = 0
@@ -16,17 +17,17 @@ function start() {
     restart()
     load()
     play = true
-    setTimeout(stop, 60000)
+    setTimeout(stop, time * 1000)
 }
 
 function stop() {
     play = false
-    alert("Koniec czasu; punkty: " + points)
+    alert("Koniec czasu; punkty: " + points + "; celność: " + accuracy)
 }
 
 function load() {
     if (!play) {return}
-    document.getElementById("add").innerText = add
+    /*document.getElementById("add").innerText = add*/
     let cswitch = Math.random() > 0.5
     let r, g, b
     if (cswitch) {
@@ -90,7 +91,7 @@ function decrease (bool) {
             document.getElementById("circle" + i + j).remove()
         }
     }
-    document.getElementById("amogus").innerText = "Celność: " + Math.round(accuracy * 10) / 10 + "%"
-    document.getElementById("amogus2").innerText = "Punkty: " + points
+    /*document.getElementById("amogus").innerText = "Celność: " + Math.round(accuracy * 10) / 10 + "%"
+    document.getElementById("amogus2").innerText = "Punkty: " + points*/
     load()
 }
