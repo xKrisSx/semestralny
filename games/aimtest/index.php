@@ -13,16 +13,20 @@
     <link rel="stylesheet" href="../../styles/style.css" type="text/css">
 </head>
 <body id="body" onload="enable(); dots(); background(); interval()">
+<header><a>Aim Test</a></header>
 <div id="gradient"></div>
 <div id="box"></div> <!-- do wyśrodkowania -->
+<div class = "div_button">
 <div class="button" id="start" onclick="start()">Start</div>
-<div>Poziom trudności:</div>
+    <span>Difficulty level:</span>
 <div class="button diffButton active" onclick="changeDiff(0)">Łatwy</div>
 <div class="button diffButton" onclick="changeDiff(1)">Średni</div>
 <div class="button diffButton" onclick="changeDiff(2)">Trudny</div>
-<div>Czas:</div>
+<span>Time:</span>
 <div class="button timeButton active" onclick="changeTime(0)">10</div>
 <div class="button timeButton" onclick="changeTime(1)">30</div>
 <div class="button timeButton" onclick="changeTime(2)">60</div>
+</div>
+<footer></footer>
 </body>
 </html>
