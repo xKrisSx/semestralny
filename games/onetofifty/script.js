@@ -1,4 +1,5 @@
 let tablica = [];
+let tablica2 =[];
 let x = 50;
 function load() {
     for (let i = 0; i < 25; i++) {
@@ -10,6 +11,14 @@ function load() {
             }
         }
     }
+for (let i = 0; i < 25; i++) {
+    tablica2[i] = Math.floor(Math.random() * 25) + 1;
+    for (let j = 0; j < i; j++) {
+        if (tablica2[j] === tablica2[i]) {
+            i--
+        }
+    }
+}
 }
 load()
 
@@ -18,7 +27,7 @@ function klikniecie(a){
     if(b === x) {
         x--;
         if (b - 25 > 0) {
-            document.getElementById(a).innerHTML = b - 25;
+            document.getElementById(a).innerHTML = tablica2[a];
             document.getElementById(a).style.backgroundColor = "yellow";
         }else{
             document.getElementById(a).style.backgroundColor = "black";
