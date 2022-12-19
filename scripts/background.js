@@ -66,9 +66,9 @@ function detectMob() {
 
 function enable() {
     if (detectMob()) {
-        maxamount = 10
+        maxamount = 8
     } else {
-        maxamount = 50
+        maxamount = 32
     }
 }
 
