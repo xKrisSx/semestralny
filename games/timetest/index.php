@@ -10,6 +10,7 @@
     <title>Time perception test</title>
 </head>
 <body>
+<header><a>Time perception test</a></header>
 <button onclick="funkcja(0)">1</button>
 <button>1</button>
 <button>2</button>

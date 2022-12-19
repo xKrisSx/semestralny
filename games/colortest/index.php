@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../styles/style.css" type="text/css">
 </head>
 <body id="body" onload="enable(); dots(); background(); interval()">
+<header><a>Color Perception Test</a></header>
 <div id="gradient"></div>
 <div class="button" id="start" onclick="start()">Start</div>
 <!--

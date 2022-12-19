@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../../styles/style.css" type="text/css">
 </head>
 <body id="body" onload="enable(); dots(); background(); interval()">
-
+<header><a>Click Test</a></header>
 <div id="gradient"></div>
 <button onclick="choose(0)" id="five"> czas: 5sek</button>
 <button onclick="choose(1)" id="ten"> czas: 10sek</button>
