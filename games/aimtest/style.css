@@ -8,7 +8,8 @@ span{
 }
 .div_button{
     margin-top: 17vh;
-    width:15vw;
+    width:13vw;
+    margin-left: 2vw;
     text-align: left;
     color: white;
     text-shadow:
@@ -26,7 +27,9 @@ span{
 .circle {
     border: 2px solid white;
 }
-
+.score{
+    font-size: 3vw;
+}
 #box {
     position: fixed;
     top: 15vh;
@@ -36,4 +39,5 @@ span{
     background-color: rgba(0,0,0,0.5);
     border: 2px solid white;
     text-align: center; /* do wyśrodkowania xd */
+    line-height: 35vh;
 }

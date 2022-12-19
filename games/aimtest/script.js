@@ -84,5 +84,5 @@ function stop() {
     active = false
     document.getElementById("circle").remove()
     let average = 0;times.forEach(n => {average += n});average /= times.length
-    document.getElementById("box").innerHTML = "Koniec czasu<br>Ilość trafień: " + times.length + "; średni czas: " + Math.round(average) + "ms" // do wyśrodkowania xd
+    document.getElementById("box").innerHTML = "<a class = score>Koniec czasu<br>Ilość trafień: " + times.length + "; średni czas: " + Math.round(average) + "ms</a>" // do wyśrodkowania xd
 }
