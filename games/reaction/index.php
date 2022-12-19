@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Reaction test</title>
 </head>
-<body>
+<body id="body" onload="enable(); dots(); background(); interval()">
 <header><a>Reaction Test</a></header>
 
 <footer><a href="../../index.php">Strona główna</a></footer>

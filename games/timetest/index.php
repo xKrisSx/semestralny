@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../../styles/background.css" type="text/css">
     <link rel="stylesheet" href="../../styles/style.css" type="text/css">
 </head>
-<body>
+<body id="body" onload="enable(); dots(); background(); interval()">
 <header><a>Time perception test</a></header>
 <button onclick="funkcja(0)">1</button>
 <button onclick="funkcja(2)">1</button>
