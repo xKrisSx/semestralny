@@ -51,17 +51,8 @@ header{
 }
 
 .active {
-    box-shadow: 3px 3px 9px 3px #36c416;
     opacity: 1;
-    text-shadow:
-            0 0 7px #1cc416,
-            0 0 10px #16c419,
-            0 0 21px #1cc416,
-            0 0 42px #50c416,
-            0 0 82px #1cc416,
-            0 0 92px #47c416,
-            0 0 102px #1cc416,
-            0 0 151px #22c416;
+    border-color: #0faf0f;
 }
 
 .header_text{

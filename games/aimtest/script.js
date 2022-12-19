@@ -8,7 +8,6 @@ let timer
 
 function start() {
     active = true
-    setTimeout(stop, time[timeIndex] * 1000)
     newcircle(true)
 }
 
@@ -33,6 +32,7 @@ function newcircle(first) {
         /*document.getElementById("div").innerHTML += "<br>" + (new Date().getTime() - timer)*/
         timer = new Date().getTime()
     } else {
+        setTimeout(stop, time[timeIndex] * 1000)
         timer = new Date().getTime()
     }
 
@@ -81,5 +81,5 @@ function stop() {
     active = false
     document.getElementById("circle").remove()
     let average = 0;times.forEach(n => {average += n});average /= times.length
-    alert("Koniec czasu, ilość trafień: " + times.length + "; średni czas: " + Math.round(average) + "ms")
+    document.getElementById("box").innerHTML = "Koniec czasu<br>Ilość trafień: " + times.length + "; średni czas: " + Math.round(average) + "ms" // do wyśrodkowania xd
 }

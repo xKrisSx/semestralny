@@ -14,7 +14,7 @@
 </head>
 <body id="body" onload="enable(); dots(); background(); interval()">
 <div id="gradient"></div>
-
+<div id="box"></div> <!-- do wyśrodkowania -->
 <div class="button" id="start" onclick="start()">Start</div>
 <div>Poziom trudności:</div>
 <div class="button diffButton active" onclick="changeDiff(0)">Łatwy</div>
