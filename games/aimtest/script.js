@@ -1,4 +1,4 @@
-let time = [1, 30, 60]
+let time = [10, 30, 60]
 let timeIndex = 0
 let diff = ["Łatwy", "Średni", "Trudny"]
 let diffIndex = 0
