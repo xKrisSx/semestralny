@@ -37,6 +37,7 @@ function newcircle(first) {
     }
 
     let circle = document.createElement("div")
+    circle.classList.add("circle")
     circle.id = "circle"
 
     circle.style.borderRadius = "50%"
@@ -66,7 +67,7 @@ function newcircle(first) {
         circle.style.left = "calc(" + Number(Math.floor(Math.random() * 60) + 20) + "% - " + (size / 2) + "px)"
     }
 
-    circle.style.backgroundColor = "#777"
+    /*circle.style.backgroundColor = "#777"*/
     circle.onclick = function() {
         times.push(new Date().getTime() - timer)
         newcircle(false)
@@ -78,6 +79,7 @@ function newcircle(first) {
 
 function stop() {
     active = false
+    document.getElementById("circle").remove()
     let average = 0;times.forEach(n => {average += n});average /= times.length
     alert("Koniec czasu, ilość trafień: " + times.length + "; średni czas: " + Math.round(average) + "ms")
 }

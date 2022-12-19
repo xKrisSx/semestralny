@@ -15,8 +15,8 @@ function restart() {
 }
 function start() {
     restart()
-    load()
     play = true
+    load()
     setTimeout(stop, time * 1000)
 }
 
@@ -46,6 +46,7 @@ function load() {
         for (let j = 0; j < 5; j++) {
             let circle = document.createElement("div")
             circle.id = "circle" + i + j
+            circle.classList.add("circle")
 
             let size = 100
             circle.style.width = size + "px"

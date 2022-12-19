@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Aim Test</title>
     <script src="../../scripts/background.js" defer></script>
+    <link rel="stylesheet" href="../../styles/background.css" type="text/css">
+    <link rel="stylesheet" href="../../styles/style.css" type="text/css">
 </head>
-<body id="body">
+<body id="body" onload="enable(); dots(); background(); interval()">
+<div id="gradient"></div>
 
-<div id="start" onclick="start()">Start</div>
+<div class="button" id="start" onclick="start()">Start</div>
 <div>Poziom trudności:</div>
 <div class="button diffButton active" onclick="changeDiff(0)">Łatwy</div>
 <div class="button diffButton" onclick="changeDiff(1)">Średni</div>

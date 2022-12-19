@@ -1,10 +1,10 @@
 .button {
     width: 100px;
     height: 30px;
-    background-color: red;
     text-align: center;
     vertical-align: center;
 }
-.active {
-    background-color: #0faf0f;
+
+.circle {
+    border: 2px solid white;
 }
