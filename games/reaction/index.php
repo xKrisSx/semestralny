@@ -15,7 +15,9 @@
 <body id="body" onload="enable(); dots(); background(); interval()">
 <div id="gradient"></div>
 <header><a>Reaction Test</a></header>
-
+<div class="button" id="start" onclick="start()">Start</div>
+<div id="text" style="opacity: 0">...</div> <!-- do wyśrodkowania -->
+<div id="box" onclick="action()"></div>
 <footer><a href="../../index.php">Strona główna</a></footer>
 </body>
 </html>
