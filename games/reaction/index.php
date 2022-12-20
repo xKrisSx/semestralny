@@ -18,7 +18,7 @@
 
 <div id="box" onclick="action()">
     <div class="button" id="start" onclick="start()">Start</div>
-    <div id="text" style="opacity: 0">...</div> <!-- do wyśrodkowania -->
+    <div id="text"></div> <!-- do wyśrodkowania -->
 </div>
 
 <footer><a class="back" href="../../index.php">Strona główna</a></footer>

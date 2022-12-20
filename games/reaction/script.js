@@ -6,7 +6,6 @@ let timeout
 
 function start() {
     document.getElementById("start").remove()
-    document.getElementById("text").style.opacity = "1"
     func0()
 }
 
