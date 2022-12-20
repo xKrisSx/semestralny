@@ -5,7 +5,7 @@ let z = 0;
 let date;
 let n;
 let wynik = 0;
-function funkcja(n,g){
+function funkcja(n,g,z){
     y = tablica1[n]
     z = tablica1[n + 1]
     if(!y){
@@ -17,6 +17,7 @@ function funkcja(n,g){
     } else if(!z) {
         date = new Date().getTime();
         tablica1.splice(n,1,false)
+        document.getElementById(z).classList.add("cien");
     }
 
 

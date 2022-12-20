@@ -12,6 +12,8 @@ button{
             0 0 102px #e30707,
             0 0 151px #e30707;
     text-decoration: none;
+    font-size: 3.5vh;
+
 }
 .wynik{
     font-size: 3vh;
