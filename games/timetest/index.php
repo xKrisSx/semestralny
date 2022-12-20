@@ -15,7 +15,7 @@
 <body id="body" onload="enable(); dots(); background(); interval()">
 <div id="gradient"></div>
 <header><a>Time perception test</a></header>
-<a onclick="funkcja(0,1)" class = "header_text">1 sekunda</a>
+<button onclick="funkcja(0,1)" class = "header_text">1 sekunda</button>
 <button onclick="funkcja(2,1)" class = "header_text">1 sekunda</button>
 <button onclick="funkcja(4,2)" class = "header_text">2 sekundy</button>
 <button onclick="funkcja(6,2)" class = "header_text">2 sekundy</button>
