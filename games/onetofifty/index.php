@@ -14,6 +14,7 @@
 <body id="body" onload="enable(); dots(); background(); interval()">
 <div id="gradient"></div>
 <header>
+    <a onclick = "load()" class = "back">Create</a>
     <a>50 to 1 </a>
     <a>Time :</a>
     <a id = "wynik" ></a>

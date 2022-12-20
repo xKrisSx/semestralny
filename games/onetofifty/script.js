@@ -5,6 +5,8 @@ function load() {
     for (let i = 0; i < 25; i++) {
         tablica[i] = Math.floor(Math.random() * 25) + 26;
         document.getElementById(i).innerHTML = tablica[i];
+        document.getElementById(i).style.opacity = 1;
+        document.getElementById(i).style.borderColor = "#18d771";
         for (let j = 0; j < i; j++) {
             if (tablica[j] === tablica[i]) {
                 i--
