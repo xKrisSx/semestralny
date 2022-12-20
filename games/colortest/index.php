@@ -24,6 +24,6 @@
 <div id="amogus"></div>
 <div id="amogus2"></div>
 -->
-<footer><a href="../../index.php">Strona główna</a></footer>
+<footer><a class="back" href="../../index.php">Strona główna</a></footer>
 </body>
 </html>

@@ -27,6 +27,6 @@
 <div id="6"></div>
 <div id="8"></div>
 <div id="10"></div>
-<footer><a href="../../index.php">Strona główna</a></footer>
+<footer><a class="back" href="../../index.php">Strona główna</a></footer>
 </body>
 </html>

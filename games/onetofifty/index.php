@@ -55,6 +55,6 @@
         <td id = "0" onclick = "klikniecie(0)"></td>
     </tr>
 </table>
-<footer><a href="../../index.php">Strona główna</a></footer>
+<footer><a class="back" href="../../index.php">Strona główna</a></footer>
 </body>
 </html>
