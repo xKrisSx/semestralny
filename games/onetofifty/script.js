@@ -38,9 +38,7 @@ function klikniecie(a){
             document.getElementById(a).style.opacity = 0;
         }
     }
-    if (x === 0){
         let c = new Date().getTime();
         c -= y;
         document.getElementById("wynik").innerHTML = Math.round(c/10)/100+" sekund";
-    }
 }

@@ -17,7 +17,7 @@
     <a onclick = "load()" class = "back">Create</a>
     <a>50 to 1 </a>
     <a>Time :</a>
-    <a id = "wynik" ></a>
+    <a id = "wynik" >0 sekund</a>
 </header>
 <table>
     <tr>
