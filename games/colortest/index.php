@@ -18,7 +18,7 @@
     <a>Color Perception Test</a>
 </header>
 <div id="gradient"></div>
-
+<div id="info"></div>
 <!--
 <div id="add"></div>
 <div id="amogus"></div>

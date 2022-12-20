@@ -6,13 +6,12 @@ let timeout
 
 function start() {
     document.getElementById("start").remove()
-    document.getElementById("text").style.opacity = "1"
     func0()
 }
 
 function restart() {
     times = []
-    start()
+    func0()
 }
 
 function action() {
@@ -28,6 +27,9 @@ function action() {
             times.push(date2 - date1)
             func4()
             break;
+        case 3:
+            restart()
+            break
     }
 }
 
@@ -37,11 +39,11 @@ function func0() {
     write("text", "Przygotuj się.")
     document.getElementById("box").style.backgroundColor = "rgba(0,0,128,0.5)"
     setTimeout(function a() {
-        document.getElementById("box").style.backgroundColor = "rgba(0,0,196,0.5)"
+        document.getElementById("box").style.backgroundColor = "rgba(64,0,196,0.5)"
         write("text", "Przygotuj się..")
     }, 1000)
     setTimeout(function a() {
-        document.getElementById("box").style.backgroundColor = "rgba(0,0,255,0.5)"
+        document.getElementById("box").style.backgroundColor = "rgba(128,0,255,0.5)"
         write("text", "Przygotuj się...")
     }, 2000)
     setTimeout(func1, 3000)
@@ -71,14 +73,15 @@ function func3() {
 }
 function func4() {
     state = 0
-    write("text", "Dobrze! " + times.length + "/5")
+    write("text", "Dobrze! (" + times[times.length - 1] + "ms), "+ times.length + "/5")
     document.getElementById("box").style.backgroundColor = "rgba(0,0,128,0.5)"
     setTimeout(func0, 1500)
 }
 
 function end() {
+    state = 3
     let average = 0;times.forEach(n => {average += n});average /= times.length
-    write("text", "<span onclick='restart()'>Średni czas reakcji: " + average + "ms</span>")
+    write("text", "Średni czas reakcji: " + average + "ms<br>Kliknij, aby zrestartować")
 }
 
 function write(id, string) {

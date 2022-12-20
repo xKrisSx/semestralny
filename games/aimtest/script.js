@@ -7,6 +7,8 @@ let times = []
 let timer
 
 function start() {
+    times = []
+    document.getElementById("box").innerHTML = ""
     if (active) {return}
     active = true
     newcircle(true)

@@ -1,6 +1,6 @@
 let add = 100
 let points = 0
-let time = 60
+let time = 3
 let accuracy = 0
 let hit = 0
 let n = 0
@@ -14,15 +14,22 @@ function restart() {
     n = 0
 }
 function start() {
-    restart()
+    if (play) {return}
     play = true
+    document.getElementById("info").innerHTML = ""
+    restart()
     load()
     setTimeout(stop, time * 1000)
 }
 
 function stop() {
     play = false
-    alert("Koniec czasu; punkty: " + points + "; celność: " + accuracy)
+    for (let i = 0; i < 5; i++) {
+        for (let j = 0; j < 5; j++) {
+            document.getElementById("circle" + i + j).remove()
+        }
+    }
+    document.getElementById("info").innerHTML = "Koniec czasu; punkty: " + points + "; celność: " + accuracy + "%"
 }
 
 function load() {
