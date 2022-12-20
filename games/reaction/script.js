@@ -55,7 +55,7 @@ function func1() {
     document.getElementById("box").style.backgroundColor = "rgba(255,0,0,0.5)"
     timeout = setTimeout(function f() {
         func2(false)
-    }, (2000 + Math.random() * 8000))
+    }, (1000 + Math.random() * 4000))
 }
 
 function func2() {
