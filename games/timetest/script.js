@@ -10,7 +10,7 @@ function funkcja(n){
     z = tablica1[n + 1]
     if(!y){
         wynik = new Date().getTime() - date;
-        document.getElementById(n).innerHTML = wynik;
+        document.getElementById(n).innerHTML = Math.round(wynik/10)/100+" sekund";
         tablica1.splice(n + 1 ,1,true)
         tablica1.splice(n,1,true)
 
