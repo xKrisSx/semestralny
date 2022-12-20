@@ -22,3 +22,21 @@ function funkcja(n,g,z){
 
 
 }
+
+/*
+let tablica = []
+let x = -1
+let date
+function func(id, time) {
+    if (x === -1 && !tablica.includes(id)) { // 1 klik
+        x = id
+        date = new Date().getTime()
+        return
+    }
+    if (x !== -1 && !tablica.includes(id) && x === id) { // 2 klik
+        document.getElementById(id).innerHTML = "<a class='wynik'>" + Math.round((new Date().getTime() - date) / 10) / 100 + " / " + time + "</a>";
+        x = -1
+        tablica.push(id)
+    }
+}
+ */
