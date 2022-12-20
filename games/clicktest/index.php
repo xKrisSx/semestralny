@@ -23,6 +23,6 @@
 <button onclick="start()">zaczynajmy</button>
 <div id="wypisz">ilosc kliknięć:</div>
 <div id="many">wynik kliknięć na sekunde:</div>
-<footer><a href="../../index.php">Strona główna</a></footer>
+<footer><a class="back" href="../../index.php">Strona główna</a></footer>
 </body>
 </html>

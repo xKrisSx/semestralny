@@ -2,11 +2,19 @@
 .true:hover {
     border: dotted 3px black;
 }*/
-.button {
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    vertical-align: center;
+.start {
+    margin-right: 5vw;
+}
+.start:hover{
+    text-shadow:
+            0 0 7px #1627c4,
+            0 0 10px #1627c4,
+            0 0 21px #1916c4,
+            0 0 42px #1916c4,
+            0 0 82px #3016c4,
+            0 0 92px #3016c4,
+            0 0 102px #3f16c4,
+            0 0 151px #3f16c4;
 }
 .circle {
 

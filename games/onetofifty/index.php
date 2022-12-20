@@ -14,9 +14,10 @@
 <body id="body" onload="enable(); dots(); background(); interval()">
 <div id="gradient"></div>
 <header>
+    <a onclick = "load()" class = "back">Create</a>
     <a>50 to 1 </a>
     <a>Time :</a>
-    <a id = "wynik" ></a>
+    <a id = "wynik" >0 sekund</a>
 </header>
 <table>
     <tr>
@@ -55,6 +56,6 @@
         <td id = "0" onclick = "klikniecie(0)"></td>
     </tr>
 </table>
-<footer><a href="../../index.php">Strona główna</a></footer>
+<footer><a class="back" href="../../index.php">Strona główna</a></footer>
 </body>
 </html>
