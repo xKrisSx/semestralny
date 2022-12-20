@@ -15,4 +15,12 @@
     border: 2px solid white;
     text-align: center; /* do wyśrodkowania xd */
     line-height: 35vh;
+    font-size: 3vh;
+}
+
+#start {
+    line-height: normal;
+    position: fixed;
+    top: calc(50vh - 35px);
+    left: calc(50vw - 70px);
 }

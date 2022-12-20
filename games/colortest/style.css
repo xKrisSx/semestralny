@@ -19,3 +19,10 @@
 .circle {
 
 }
+
+#info {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    line-height: 80vh;
+}
