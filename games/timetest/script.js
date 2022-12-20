@@ -5,12 +5,12 @@ let z = 0;
 let date;
 let n;
 let wynik = 0;
-function funkcja(n){
+function funkcja(n,g){
     y = tablica1[n]
     z = tablica1[n + 1]
     if(!y){
         wynik = new Date().getTime() - date;
-        document.getElementById(n).innerHTML = Math.round(wynik/10)/100+" / "+ n;
+        document.getElementById(n).innerHTML = Math.round(wynik/10)/100+" / "+g;
         tablica1.splice(n + 1 ,1,true)
         tablica1.splice(n,1,true)
 
